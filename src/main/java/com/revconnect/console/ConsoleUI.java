@@ -88,6 +88,7 @@ public class ConsoleUI {
 
         if (user.isPresent()) {
             loggedInUser = user.get();
+
             System.out.println("Welcome, " + loggedInUser.getEmail() + "!");
         } else {
             System.out.println("Invalid login");
